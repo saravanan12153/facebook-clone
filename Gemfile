@@ -18,6 +18,9 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 # for jquery turbolinks
 gem 'jquery-turbolinks', '~> 2.1'
 
+# font awesome
+gem 'font-awesome-sass', '~> 4.5'
+
 group :development, :test do
   gem 'byebug'
 end

@@ -1,0 +1,44 @@
+nav.navbar {
+  background-color: $USER-FB4;
+  border: none;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+  color: $USER-FB1 !important;
+}
+
+.navbar-brand {
+  padding-top: 9px;
+}
+
+.navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: $USER-FB3;
+}
+
+.dropdown-menu {
+  background-color: $USER-FB4 !important;
+}
+
+.dropdown-menu > li > a {
+  color: $USER-FB1 !important;
+  &:hover {
+    color: $USER-FB1 !important;
+    background-color: $USER-FB3 !important;
+  };
+}
+
+span.icon-bar{
+  background-color: $USER-FB1 !important;
+  &:focus{
+    background-color: $USER-FB1 !important;
+  };
+}
+
+button.navbar-toggle{
+  &:hover{
+    background-color: $USER-FB3 !important;
+  };
+  &:focus{
+    background-color: $USER-FB3 !important;
+  };
+}

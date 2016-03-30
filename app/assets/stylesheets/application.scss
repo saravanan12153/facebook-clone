@@ -1,1 +1,15 @@
+/* Normalize CSS */
 @import "normalize.min";
+
+/* Bootstrap */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* Body Fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+
+/* Website Styling */
+body {
+  font-family: "Roboto",sans-serif;
+}
